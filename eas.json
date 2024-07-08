@@ -1,5 +1,7 @@
 {
   "build": {
-    "image": "default"
+    "image": {
+      "base": "default"
+    }
   }
 }
