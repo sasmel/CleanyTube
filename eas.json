@@ -10,10 +10,10 @@
         "EAS_BUILD_PROFILE": "development"
       },
       "android": {
-        "image": "default"
+        "image": "ubuntu-20.04-android-31"
       },
       "ios": {
-        "image": "default"
+        "image": "macos-12-xcode-14"
       }
     },
     "preview": {
@@ -22,10 +22,10 @@
         "EAS_BUILD_PROFILE": "preview"
       },
       "android": {
-        "image": "default"
+        "image": "ubuntu-20.04-android-31"
       },
       "ios": {
-        "image": "default"
+        "image": "macos-12-xcode-14"
       }
     },
     "production": {
@@ -33,10 +33,10 @@
         "EAS_BUILD_PROFILE": "production"
       },
       "android": {
-        "image": "default"
+        "image": "ubuntu-20.04-android-31"
       },
       "ios": {
-        "image": "default"
+        "image": "macos-12-xcode-14"
       }
     }
   }
