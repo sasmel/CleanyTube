@@ -30,7 +30,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "bf5bfd37-0c06-4b3f-8b88-3202687f22df"
+        "projectId": "26e3d5f8-91ab-4571-8528-82fd92f528a8"
       }
     },
     "owner": "nathan.firmo",
@@ -38,7 +38,7 @@
       "policy": "sdkVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/bf5bfd37-0c06-4b3f-8b88-3202687f22df"
+      "url": "https://u.expo.dev/26e3d5f8-91ab-4571-8528-82fd92f528a8"
     }
   },
   "packagerOpts": {
