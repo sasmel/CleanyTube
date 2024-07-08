@@ -1,16 +1,43 @@
 {
+  "cli": {
+    "version": ">= 0.50.0"
+  },
   "build": {
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "image": "ubuntu-lts-18.04-android-30"
+      "env": {
+        "EAS_BUILD_PROFILE": "development"
+      },
+      "android": {
+        "image": "default"
+      },
+      "ios": {
+        "image": "default"
+      }
     },
     "preview": {
       "distribution": "internal",
-      "image": "ubuntu-lts-18.04-android-30"
+      "env": {
+        "EAS_BUILD_PROFILE": "preview"
+      },
+      "android": {
+        "image": "default"
+      },
+      "ios": {
+        "image": "default"
+      }
     },
     "production": {
-      "image": "ubuntu-lts-18.04-android-30"
+      "env": {
+        "EAS_BUILD_PROFILE": "production"
+      },
+      "android": {
+        "image": "default"
+      },
+      "ios": {
+        "image": "default"
+      }
     }
   }
 }
