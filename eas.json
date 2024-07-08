@@ -15,29 +15,6 @@
       "ios": {
         "image": "default"
       }
-    },
-    "preview": {
-      "distribution": "internal",
-      "env": {
-        "EAS_BUILD_PROFILE": "preview"
-      },
-      "android": {
-        "image": "default"
-      },
-      "ios": {
-        "image": "default"
-      }
-    },
-    "production": {
-      "env": {
-        "EAS_BUILD_PROFILE": "production"
-      },
-      "android": {
-        "image": "default"
-      },
-      "ios": {
-        "image": "default"
-      }
     }
   }
 }
