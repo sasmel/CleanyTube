@@ -1,7 +1,16 @@
 {
   "build": {
-    "image": {
-      "image": "default"
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "image": "ubuntu-lts-18.04-android-30"
+    },
+    "preview": {
+      "distribution": "internal",
+      "image": "ubuntu-lts-18.04-android-30"
+    },
+    "production": {
+      "image": "ubuntu-lts-18.04-android-30"
     }
   }
 }
